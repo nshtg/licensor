@@ -9,6 +9,7 @@ use std::fs::File;
 use std::io::Write;
 use std::path::Path;
 
+
 #[derive(Debug, Deserialize)]
 #[serde(rename_all(deserialize = "camelCase"))]
 enum LicenseSource {
